@@ -15,7 +15,7 @@ class BasePage:
     def get_current_url(self) -> str:
         #Get the current URL of the page."""
         return self.page.url
-    def click_element(self, selector: str) -> 'BasePage':
+    def click(self, selector: str) -> 'BasePage':
         #Click an element specified by the selector."""
         self.page.locator(selector).click()
         return self
