@@ -174,3 +174,22 @@ poetry.toml
 pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python
+
+# ============================================================
+# Framework específico
+# ============================================================
+
+# Logs del framework
+logs/
+*.log
+
+# Screenshots de tests
+screenshots/
+
+# Environment variables
+.env
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/
